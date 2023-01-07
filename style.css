@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: 'Work Sans';
+    font-family: 'Work Sans','FontAwesome' ;
 }
 
 header {
@@ -192,6 +192,7 @@ header {
     width: 100%;
     height: 350px;
     background: #151414;
+    margin-top: 40px;
 }
 
 .left-item {
@@ -247,4 +248,8 @@ header {
     border: 0;
     color:  #FFFFFF;
     border-radius: 3px;
+}
+.fa-thin {
+    color:rgb(8, 137, 137);
+    
 }
