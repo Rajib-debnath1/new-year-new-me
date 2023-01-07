@@ -140,6 +140,51 @@ header {
     margin-top: 15px;
 }
 
+/* extra section */
+
+.extra{
+    padding: 40px 100px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+.extra-title{
+    font-size: 25px;
+    font-weight: 800px;
+    margin-bottom: 10px;
+}
+.extra-description{
+    font-size: 14px;
+}
+.extra-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 15px;
+}
+.extra-content .extra-item{
+    text-align: left;
+    background-color: antiquewhite ;
+    padding: 40px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.extra-item h4{
+    font-weight: 900px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.extra-item p{
+    font-size: 14px;
+}
+.extra-content .extra-extra{
+    background-color: rgb(219, 204, 182);
+}
+.extra-content .extra-extra1{
+    background-color: rgb(198, 198, 171);
+}
+
 /* fotter section */
 
 .footer-section {
