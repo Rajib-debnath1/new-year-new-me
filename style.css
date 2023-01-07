@@ -252,5 +252,6 @@ header {
 .fa-thin {
     color:rgb(8, 137, 137);
     font-family:'FontAwesome' ;
+    font-weight: 900 ;
     
 }
