@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+header {
+    background-image: url(images/banner/banner3.png);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.header-content {
+    text-align: right;
+    padding-top: 300px;
+    padding-right: 80px;
+    padding-left: 20px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 46px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+
+}
+
+.btn {
+
+    font-weight: 600;
+    font-size: 18px;
+    color: #005FAC;
+    padding: 10px 12px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* failures section */
+.failures {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.failures img {
+    height: 400px;
+    padding: 80px 150px;
+}
+
+.failures-content h3 {
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 37px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failures-content .failures-description {
+    font-weight: 300px;
+    font-size: 12px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 10px;
+}
+
+.failures-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* plane section */
+
+.plane {
+    text-align: center;
+}
+
+.plane h3 {
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+.plane-conteiner {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.plane-conteiner .plane-item {
+    padding: 30px 70px;
+}
+
+.plane-item img {
+    margin-bottom: 15px;
+}
+
+.plane-item .item-title {
+    font-size: 18px;
+    font-weight: 900px;
+    margin-bottom: 10px;
+    color: #151414;
+}
+
+.plane-item .item-description {
+    font-weight: 500;
+    font-size: 17px;
+    color: #737272;
+}
